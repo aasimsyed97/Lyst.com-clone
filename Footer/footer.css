@@ -1,0 +1,113 @@
+* {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#footerbox {
+    width: 100%;
+    display: flex;
+    padding: 20px 20px;
+
+
+}
+
+#f_leftbox {
+    width: 50%;
+    height: 500px;
+    border: 1px solid;
+    padding: 20px;
+}
+
+#trust_pilot {
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    margin-bottom: 5px;
+
+
+}
+
+#trust_logo {
+    width: 150px;
+    padding: -20px;
+
+}
+
+.trust {
+    margin: -115px;
+}
+
+#review {
+    width: 170px;
+}
+
+.trustscore {
+    font-size: 20px;
+
+}
+
+#social_logos {
+    border: 1px solid;
+    display: flex;
+    margin: 5px 0px;
+    margin-bottom: 20px;
+
+}
+
+#social_logos>img {
+    width: 35px;
+    padding: 5px 0px;
+}
+
+#app_stores {
+    border: 1px solid;
+    margin: 0px;
+
+}
+
+.app_store {
+    width: 150px;
+    height: 70px;
+    padding: 10px 0px;
+}
+
+#text {
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+img {
+    width: 150px;
+
+}
+
+
+#f_rightbox {
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+
+}
+
+#international {
+    width: 50%;
+    border: 1px solid;
+
+}
+
+#Help_and_info {
+    width: 50%;
+    border: 1px solid;
+    justify-content: center;
+
+}
