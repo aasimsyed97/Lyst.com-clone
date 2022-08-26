@@ -1,0 +1,30 @@
+*{
+    margin: 0px;;
+    padding: 0px;
+}
+#navbar{
+    margin-top: 20px;
+}
+#nav1{
+    display: flex;
+    justify-content: space-around;
+}
+#nav1>img{
+    width: 90px;
+    height: 70px;
+    /* border: 1px solid black; */
+}
+#nav1>input{
+    height: 30px;
+    width: 25%;
+    margin-top: 20px;
+}
+#nav2{
+    display: flex;
+    justify-content: space-around;
+    width: 86%;
+    margin: auto;
+    margin-top: 23px;
+    font-size: small;
+    font-weight: bold;
+}
