@@ -40,3 +40,8 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+function changelocation(){
+  window.location.href="men.html"
+  console.log("Hiii")
+}
