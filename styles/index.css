@@ -25,7 +25,8 @@ img:hover {
 }
  .products::-webkit-scrollbar,
 .breakout-brands::-webkit-scrollbar,
-#container::-webkit-scrollbar {
+#container::-webkit-scrollbar,
+#container6::-webkit-scrollbar {
     /* display: none; */
      width: 0;
 } 
@@ -137,7 +138,10 @@ span {
    justify-content: center;
 
 }
-h1,h3,p{
+p{
+    text-align: center;
+}
+#newh{
     text-align: center;
 }
 #img3{
@@ -239,13 +243,13 @@ h1,h3,p{
     color: #000000;
     margin-top: -20px;
  }
- h2{
-    font-size: 50px;
+ .head12{
+    font-size:110px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
  }
- h3{
-    font-size: 35px;
+ #head123{
+    font-size: 44px;
     padding-top: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  }
@@ -350,7 +354,7 @@ align-items: center;
  #container6>div{
     width:150%;
     height: 290px;
-    margin-top:130PX;
+    margin-top:90PX;
     /* border: 1px solid #000000   */
  }
  .p2{

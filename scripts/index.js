@@ -42,6 +42,9 @@ window.onclick = function (event) {
 
 }
 
+
+
+
 // function change(){
 //   console.log("hi")
 
@@ -52,3 +55,4 @@ window.onclick = function (event) {
 //   console.log("Hiii")
 
 // }
+
