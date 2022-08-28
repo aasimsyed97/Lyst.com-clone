@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payment</title>
+
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/a9dbdcc6e4.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans&family=Poppins:wght@500;700;900&family=Roboto:wght@500&display=swap" rel="stylesheet">
-    
+
     <style>
         #main{
             width: 90%;
@@ -52,6 +54,12 @@
         #BS>button{
             width: 80px;
         }
+
+    </style>
+</head>
+<body>
+    <a href="cart.html"><p> < back to cart </p></a>
+
         #back_to_cart{
             margin-left: 75px;
             margin-bottom: 30px;
@@ -63,6 +71,7 @@
 </head>
 <body>
     <a href="cart.html"><button id="back_to_cart"> <i class="fa-solid fa-arrow-left-long"></i> Back to Cart </button></a>
+
    <div id="main">
        <div id="add">
          <h3>SHIPPING ADDRESS</h3>
@@ -152,8 +161,13 @@
    function myfunctionfinal(){
        alert("Payment Successfully done");
        alert("Your Order is placed")
+
+       window.location.assign("index.html")
+   }
+
        window.location.assign("confirmation.html")
    }
 
    
+
 </script>
