@@ -83,7 +83,11 @@ var count=localStorage.getItem("mamaEarthCartCount")||0;
 
         var delproduct=document.createElement("img");
         delproduct.style.cursor="pointer";
+
+        delproduct.innerHTML=<i class="fa-solid fa-xmark-large"></i>;
+
         delproduct.src="https://i.pinimg.com/originals/2c/3e/60/2c3e6019a6a08b739bb607a4fc17ed38.png";
+
         
         delproduct.setAttribute("id","deleteItemBtn");
        
@@ -194,7 +198,11 @@ var count=localStorage.getItem("mamaEarthCartCount")||0;
     procedTopay.addEventListener("click", paymentpage);
     function paymentpage(){
         localStorage.setItem("lystTotalPrice",total.innerText);
+
+        window.location.href="checkout.html";
+
         window.location.href="payment.html";
+
     }
 
  

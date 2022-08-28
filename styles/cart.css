@@ -28,6 +28,7 @@
     font-size: small;
     font-weight: bold;
 }
+
 #cartBody{
     width: 100%;
     font-family: 'Lato', sans-serif; 
@@ -257,4 +258,5 @@
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
 }
+
 

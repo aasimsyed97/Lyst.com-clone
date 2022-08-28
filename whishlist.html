@@ -13,6 +13,10 @@
         #main{
             width: 60%;
             margin: auto;
+
+            text-align: center;
+
+
         }
         p{
             text-align: center;
@@ -72,9 +76,16 @@
         
     </div>
    
+
+    <p >Create your wishlist from across 12,000 stores in one place.</p>
+    
+    
+<div style="text-align: center; ">
+
     <p>
         Create your wishlist from across 12,000 stores in one place.
         <br>
+
 
 Just tap 
 <i class="fa-solid fa-heart"></i>
@@ -83,9 +94,67 @@ Just tap
  to track items you love, and we'll send you an alert when they go on sale or come back in stock.
     </p>
    
+
+    
+   </div>
+</div>
+<div id="button">
+    <button>Find your favorites</button>
+</div>
+</body>
+</html>
+<script>
+
+let proDataFromLS=JSON.parse(localStorage.getItem("whishlist"))
+
+function display(proDataFromLS){
+
+    proDataFromLS.forEach(function(elem){
+
+        let div=document.createElement("div")
+        div.setAttribute("id","div")
+        
+        let img=document.createElement("img")
+        img.setAttribute("src", elem.img)
+        img.setAttribute("id","image")
+
+        let brand=document.createElement("h2")
+        brand.innerText=elem.brand
+        brand.setAttribute("id","brand")
+
+        let desc=document.createElement("p")
+        desc.innerText=elem.desc
+        desc.setAttribute("id","desc")
+
+        let price=document.createElement("h3")
+        price.innerText=`Price:-${elem.price}`
+        price.setAttribute("id","price")
+
+        let remove=document.createElement("button")
+        remove.setAttribute("id","remove")
+        remove.innerText="Remove"
+        remove.addEventListener("click", removeFun)
+        
+        div.append(img,type,price,desc,remove)
+
+        document.getElementById("all_products").append(div)
+    })
+
+
+}
+display(proDataFromLS)
+
+function removeFun(index){
+    proDataFromLS.splice(index+1,1);
+    localStorage.setItem("products", JSON.stringify(proDataFromLS))
+    window.location.reload()
+}
+</script>
+
     <div id="button">
         <button>Find your favorites</button>
     </div>
    </div>
 </body>
 </html>
+
