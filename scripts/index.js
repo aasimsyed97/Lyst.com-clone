@@ -39,8 +39,16 @@ window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
+<<<<<<< HEAD
 }  
 
 function change(){ 
   console.log("hi")
+=======
+}
+
+function changelocation(){
+  window.location.href="men.html"
+  console.log("Hiii")
+>>>>>>> fedcbf7b6538b81d2063d042e0969b5d0f381251
 }
