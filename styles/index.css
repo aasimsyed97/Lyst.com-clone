@@ -138,7 +138,10 @@ span {
    justify-content: center;
 
 }
-h1,h3,p{
+p{
+    text-align: center;
+}
+#newh{
     text-align: center;
 }
 #img3{
@@ -351,7 +354,7 @@ align-items: center;
  #container6>div{
     width:150%;
     height: 290px;
-    margin-top:130PX;
+    margin-top:90PX;
     /* border: 1px solid #000000   */
  }
  .p2{
