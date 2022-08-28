@@ -25,7 +25,8 @@ img:hover {
 }
  .products::-webkit-scrollbar,
 .breakout-brands::-webkit-scrollbar,
-#container::-webkit-scrollbar {
+#container::-webkit-scrollbar,
+#container6::-webkit-scrollbar {
     /* display: none; */
      width: 0;
 } 
@@ -239,13 +240,13 @@ h1,h3,p{
     color: #000000;
     margin-top: -20px;
  }
- h2{
-    font-size: 50px;
+ .head{
+    font-size:110px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
  }
- h3{
-    font-size: 35px;
+ #heading{
+    font-size: 44px;
     padding-top: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  }
