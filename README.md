@@ -1,5 +1,6 @@
 # -LYST.COM Clone. 
 This is team project collaboratd by 3 members. Lyst is a fashion technology company, and premium shopping website. We cloned this website within 5 days and this was our second project during Masai curriculum.
+https://joyful-lolly-c213c9.netlify.app/women.html
 
 ## Features
 
@@ -14,7 +15,7 @@ This is team project collaboratd by 3 members. Lyst is a fashion technology comp
 
 ## Installation
 
-- copy this https://github.com/aasimsyed97/SugarCosmetics01.git
+- copy this https://github.com/aasimsyed97/makeshift-protest-7826.git
 - Select path where you want to store the project in your pc
 - open the corresponding file / folder with editor
 - open terminal of your editor
